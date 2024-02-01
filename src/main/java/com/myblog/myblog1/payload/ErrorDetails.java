@@ -14,6 +14,13 @@ public class ErrorDetails {
     private Date date;
     private String url;
 
+    public ErrorDetails(String message, Date date, String description) {
+    }
+
+//    public ErrorDetails(String message, Date date, String description) {
+//    }
+
+
 //    public ErrorDetails(String message, Date date, String description) {
 //    }
 
