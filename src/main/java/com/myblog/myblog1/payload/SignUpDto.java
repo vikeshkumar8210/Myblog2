@@ -8,10 +8,13 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class SignUpDto {
+
     private String name;
     private String username;
     private String email;
     private String password;
+    private String roleType;
+
 
     // Generate getter, Setter, and Constructer
 
@@ -49,4 +52,7 @@ public class SignUpDto {
     }
 
 
+    public String getRoleType() {
+        return roleType;
+    }
 }
